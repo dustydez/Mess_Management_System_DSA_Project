@@ -48,10 +48,10 @@ Key SQL Tables:
 
 ### Contributors
 Ashmita Das:
-Database setup and interactions.
-Login and mess management pages.
-Password management feature.
+1. Database setup and interactions.
+2. Login and mess management pages.
+3. Password management feature.
 
 Sahasra Pulumati:
-Implemented data structures.
-Designed hostel office management functionalities.
+1. Implemented data structures.
+2. Designed hostel office management functionalities.
