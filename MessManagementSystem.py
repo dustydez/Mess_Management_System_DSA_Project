@@ -1,14 +1,3 @@
-# Name: Ashmita Das
-# Roll no: 231EC208
-# Mobile no: 7892120620
-# Email Id: ashmitadas.231ec208@nitk.edu.in
-
-# Name: Sahasra Pulumati
-# Roll no: 231EE247
-# Mobile no: 8123900157
-# Email Id: sahasrapulumati.231ee247@nitk.edu.in
-
-
 from tkinter import *
 from tkinter import messagebox, ttk
 import mysql.connector as con
@@ -689,7 +678,7 @@ root.geometry(geometry)
 root.title('Project')
 root.resizable(False, False)
 
-mycon = con.connect(host="localhost", user="root", passwd="mySQL123", database="messdatabase")
+mycon = con.connect(host="localhost", user="root", passwd="password", database="messdatabase")
 if mycon.is_connected():
     cur = mycon.cursor()
     changePage(1) #login page
