@@ -46,6 +46,30 @@ Key SQL Tables:
 3. Menu
 4. Login
 
+### Setup Instructions
+Database Setup:
+1. Create the MySQL database and populate it with the provided schema and initial data.
+2. Update the database connection details in the Python script.
+
+Python Environment:
+1. Ensure Python 3.x is installed.
+2. Install required libraries: mysql.connector, tkinter.
+
+Run the Application:
+Execute the main Python script to start the application.
+
+### Usage
+Login:
+Use provided credentials to access mess-specific or hostel office features.
+
+Mess Staff:
+Track student meals and update daily menus.
+
+Hostel Office:
+1. Add, update, or remove student data.
+2. Handle mess reassignments.
+
+
 ### Contributors
 Ashmita Das:
 1. Database setup and interactions.
