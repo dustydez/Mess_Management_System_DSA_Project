@@ -1,1 +1,40 @@
 # Mess_Management_System_DSA_Project
+### Project Overview
+The Student Hostel Mess Management System is a streamlined application designed to efficiently manage student meal tracking and mess menus in college hostels. It aims to replace traditional mess cards with a more reliable and interactive system that offers multi-user access, data management, and validation features.
+
+### Features
+1. Student Information Management:
+Track student details such as roll numbers, mess assignments, and meal consumption history.
+Manage student entries during admissions or deletions at the end of an academic year.
+Allow mess reassignments when required.
+
+2. Meal History Management:
+Update meal consumption records in real-time.
+Prevent duplicate entries and validate meal timing restrictions.
+
+3. Mess Menu Management:
+Create, update, and delete daily menus.
+Display menus interactively for specific days.
+
+4. Multi-User Access:
+Separate logins for hostel office staff and mess staff.
+Mess-specific access limits data visibility to respective messes.
+Advanced password management for secure logins.
+
+5. Graphical User Interface (GUI):
+User-friendly GUI built using Tkinter.
+Features login pages, interactive menu displays, and student data management screens.
+
+6. Data Validation:
+Ensures only valid and authorized registration numbers are used.
+Prevents redundant entries and invalid operations.
+
+### Contributors
+Ashmita Das:
+Database setup and interactions.
+Login and mess management pages.
+Password management feature.
+
+Sahasra Pulumati:
+Implemented data structures.
+Designed hostel office management functionalities.
