@@ -1,6 +1,6 @@
 import mysql.connector as con
 
-mycon = con.connect(host="localhost", user="root", passwd="mySQL123", database="messdatabase")
+mycon = con.connect(host="localhost", user="root", passwd="password", database="messdatabase")
 if mycon.is_connected():
     print("Successfully connected to MySQL db")
 else:
