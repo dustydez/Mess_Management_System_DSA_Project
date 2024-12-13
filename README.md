@@ -29,6 +29,23 @@ Features login pages, interactive menu displays, and student data management scr
 Ensures only valid and authorized registration numbers are used.
 Prevents redundant entries and invalid operations.
 
+### Technical Details
+Backend:
+MySQL database with tables for student information, meal history, menus, and login credentials.
+
+Frontend:
+Developed in Python using Tkinter for the GUI.
+
+Data Structures:
+1. Linked Lists: Used for meal and student data.
+2. Circular Doubly Linked Lists: Used for managing weekly menus.
+
+Key SQL Tables:
+1. StudentMessDetails
+2. MealHistory
+3. Menu
+4. Login
+
 ### Contributors
 Ashmita Das:
 Database setup and interactions.
